@@ -18,8 +18,7 @@ Quickstart:
     python src/evaluate.py --capacity_pct 0.05
     python src/explain.py --top_n 6
     python src/drift_check.py
-<pre>
-
+<pre> 
 Artifacts:
 - data/raw/synthetic_compliance_signals.csv
 - models/risk_model.joblib
