@@ -22,20 +22,20 @@ python src/drift_check.py
 ```
 
  
-Artifacts:
+## Artifacts:
 - data/raw/synthetic_compliance_signals.csv
 - models/risk_model.joblib
 - reports/figures/*.png
 - reports/outputs/decision_summary.md
 
-Transfer mapping (how to explain in interview):
+## Transfer mapping (how to explain in interview):
 - "Entity" (compliance) == "Customer/HCP" (engagement)
 - "Downstream risk event" == "Desired outcome / response" (engagement/adoption)
 - "Review capacity" == "Field force / channel capacity" (NBA constraints)
 - "Risk tier + rationale" == "Next best action + drivers" (explainability for adoption)
 
-Additional (commercial translation):
+## Additional (commercial translation):
     python src/commercial_translation.py --capacity_pct 0.05
 
-After running commercial translation:
+## After running commercial translation:
 - reports/outputs/commercial_summary.md
