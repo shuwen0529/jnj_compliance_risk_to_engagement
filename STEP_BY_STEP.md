@@ -28,7 +28,7 @@ We then pick a threshold based on **capacity_pct** (e.g., top 5% reviewed).
 - PSI-style drift per feature between baseline vs recent window
 - Score distribution drift check
 
-## 5) Transfer to Customer Engagement (what to say)
+## 5) Transfer to Customer Engagement
 Replace compliance terms with commercialization terms:
 - risk score -> propensity / uplift score
 - review queue -> NBA prioritized action list under channel capacity
