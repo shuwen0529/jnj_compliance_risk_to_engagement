@@ -10,13 +10,17 @@ What it demonstrates (end-to-end):
 4) Explain drivers (permutation importance + partial dependence)
 5) Monitor drift (PSI-style checks) and score stability
 
-Quickstart:
-    pip install -r requirements.txt
-    python src/make_data.py
-    python src/train.py
-    python src/evaluate.py --capacity_pct 0.05
-    python src/explain.py --top_n 6
-    python src/drift_check.py
+## Quickstart
+
+```bash
+pip install -r requirements.txt
+python src/make_data.py
+python src/train.py
+python src/evaluate.py --capacity_pct 0.05
+python src/explain.py --top_n 6
+python src/drift_check.py
+```
+
  
 Artifacts:
 - data/raw/synthetic_compliance_signals.csv
