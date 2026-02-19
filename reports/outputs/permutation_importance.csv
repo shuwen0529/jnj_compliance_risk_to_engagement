@@ -1,0 +1,8 @@
+feature,importance
+behavior_shift_30d,0.16049610413147436
+anomaly_score,0.140857740322089
+transactions_volume,0.04021037520267126
+prior_case_flag,0.030556464855065947
+policy_change_exposure,0.009256163094345843
+month,0.0
+data_quality_score,-0.004586119479183392
