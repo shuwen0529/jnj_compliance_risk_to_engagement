@@ -10,7 +10,6 @@ What it demonstrates (end-to-end):
 4) Explain drivers (permutation importance + partial dependence)
 5) Monitor drift (PSI-style checks) and score stability
 
-<pre>
 Quickstart:
     pip install -r requirements.txt
     python src/make_data.py
@@ -18,7 +17,7 @@ Quickstart:
     python src/evaluate.py --capacity_pct 0.05
     python src/explain.py --top_n 6
     python src/drift_check.py
-<pre> 
+ 
 Artifacts:
 - data/raw/synthetic_compliance_signals.csv
 - models/risk_model.joblib
